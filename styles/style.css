@@ -77,15 +77,15 @@
     }
 
     h3 {
-      color: black;
-      font-family: var(--header-font-family);
+    color: black;
+    font-family: var(--header-font-family);
     font-weight: bold;
     font-size: 64px;
     }
 
     h4 {
-      color: black;
-      font-family: var(--header-font-family);
+    color: black;
+    font-family: var(--header-font-family);
     font-weight: bold;
     font-size: 64px;
     text-align: center;
@@ -97,6 +97,13 @@
       font-size: 16px;
       line-height: 30px;
     }
+
+    .about-para {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
 
     .btn-branding-outline {
       border-radius: 4px;
@@ -118,7 +125,7 @@
       }
 
       .project-description {
-        padding: 120px 60px;
+        padding: 80px 60px;
       }
 
       .email-link {
@@ -173,6 +180,14 @@
 
       .about-paragraphs p {
         margin: 10px;
+      }
+
+      .about {
+        padding: 140px 60px;
+      }
+
+      .img-fluid {
+        border-radius: 20px;
       }
 
     @media (max-width: 800px) {
