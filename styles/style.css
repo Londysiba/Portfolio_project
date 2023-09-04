@@ -190,6 +190,22 @@
         border-radius: 20px;
       }
 
+      .container h1 {
+        font-size: 64px;
+        line-height: 80px;
+        padding-top: 120px;
+      }
+
+      .container p {
+        padding-top: 10px;
+      }
+
+      .container h3 {
+        padding-top: 10px;
+        font-size: 34px;
+        line-height: 1.5;
+      }
+
     @media (max-width: 800px) {
         .bio h1 {
           font-size: 60px;
@@ -198,6 +214,15 @@
       
         h3 {
           font-size: 32px;
+        }
+
+        .container h1 {
+          font-size: 30px;
+          line-height: 1.5;
+        }
+
+        .container h3 {
+          font-size: 20px;
         }
       
         .bio {
