@@ -225,14 +225,64 @@
         text-align: left;
       }
 
+      footer .footer-email {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        transition: all 15ms ease-in-out;
+      }
+
+      footer .footer-email:hover {
+      color: var(--primary-color);
+      }
+
+      .social-links a {
+        margin: 0 20px;
+        background-color: var(--branding-color);
+        padding: 10px 14px;
+        font-size: 18px;
+        border-radius: 50px;
+        transition: all 15ms ease-in-out;
+      }
+
+      .social-links a:hover {
+        color: white;
+        background-color: var(--primary-color);
+      }
+
+      .contact-box h3 {
+        font-size: 48px;
+        color: black;
+      }
+
+      footer .contact-box {
+        background-color: var(--branding-color);
+        padding: 30px 60px;
+        border-radius: 15px;
+      }
+
+      footer .contact-box p {
+        margin: 0;
+      }
+
+
     @media (max-width: 800px) {
         .bio h1 {
-          font-size: 60px;
-          line-height: 2;
+          font-size: 55px;
+          line-height: 1.5;
+          padding-top: 30px;
         }
       
         h3 {
           font-size: 32px;
+        }
+
+        .contact-box h3 {
+          font-size: 24px;
+        }
+
+        footer .footer-email {
+          font-size: 16px;
         }
 
         .container h1 {
@@ -241,7 +291,7 @@
         }
 
         .container h3 {
-          font-size: 20px;
+          font-size: 30px;
         }
       
         .bio {
@@ -252,8 +302,20 @@
           padding: 0;
           text-align: center;
         }
+
+        .project-description p {
+          font-size: 16px;
+        }
         .email-link {
           font-size: 17px;
+      }
+
+      footer .contact-box {
+        padding: 30px;
+      }
+
+      footer .contact-box p {
+        font-size: 12px;
       }
       }
 
